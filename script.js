@@ -1,6 +1,6 @@
 
 
-const form = document.querySelector(".skill-form");
+const form = document.querySelector(".skillform");
 
 if (form) {
   form.addEventListener("submit", function (e) {
