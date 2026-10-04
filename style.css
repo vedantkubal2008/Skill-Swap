@@ -1,0 +1,547 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+marquee {
+  font-size: 40px;
+  border: 3px solid #747272;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: #e4dada;
+}
+
+.small-title {
+  color: #e60000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.h {
+  position: sticky;
+  top: 0;
+
+  background: #000;
+  color: #fff;
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #e60000;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navigation a:hover {
+  color: #e60000;
+}
+
+.navigation a.active {
+  border-bottom: 2px solid #e60000;
+}
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 5px;
+  background: #e60000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #990000;
+}
+
+.button.outline {
+  background: transparent;
+  border: 1px solid #e60000;
+  color: #e60000;
+}
+
+.button.outline:hover {
+  background: #e60000;
+  color: #fff;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 20px;
+  background: #f2f2f2;
+}
+
+.hero-text {
+  flex: 2;
+  padding-right: 30px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  margin: 5px 0 15px 0;
+}
+
+.hero h1 span {
+  color: #e60000;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 0 0 15px 0;
+}
+
+.hero-links {
+  margin-top: 10px;
+}
+
+.exchange {
+  flex: 1;
+  background: #fff;
+  border: 10px outset #747272;
+  padding: 10px;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exchange-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.exchange-person {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.avatar {
+  background: #e60000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.section {
+  padding: 40px 20px;
+}
+.title,
+.section-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: #fff;
+  border: 5px inset #0c0c0c;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.skill-card:hover {
+  transform: scale(1.03);
+}
+
+.ssymbol {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #e60000;
+}
+
+.rule {
+  padding: 30px;
+  background: #f0f0f0;
+}
+
+.rules li {
+  margin: 8px 0;
+}
+
+.share {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.share h2 {
+  margin-bottom: 10px;
+}
+
+
+.foot {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading h1 {
+  font-size: 40px;
+  color: #000;
+}
+
+
+.light-section {
+  background: #f9f9f9;
+  border-radius: 6px;
+  padding: 30px 20px;
+}
+
+.student {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.studentcard {
+  background: #fff;
+  border: 5px inset #0c0c0c;
+  padding: 15px;
+  border-radius: 40px;
+  transition: transform 0.2s;
+}
+
+.studentcard:hover {
+  transform: scale(1.03);
+}
+
+.studentheader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.large-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e60000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.large-avatar.purple { background: purple; }
+.large-avatar.orange { background: orange; }
+.large-avatar.green  { background: green; }
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skills span {
+  display: block;
+  font-size: 12px;
+  color: #555;
+}
+
+.profile-link {
+  color: #e60000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #000;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+.form {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 0 20px 40px;
+}
+
+.info {
+  flex: 1;
+  background: #fff;
+  border: 5px inset #0c0c0c;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.info h2 {
+  color: #000;
+}
+
+.tips {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.tips li {
+  margin-bottom: 8px;
+}
+
+.skillform {
+  flex: 2;
+  background: #fff;
+  border: 10px outset #747272;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+  color: #e60000;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #e60000;
+  outline: none;
+}
+
+.radio-group, .checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.radio-group input,
+.checkbox-group input {
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+.submit-button {
+  background: #e60000;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #990000;
+}
+.paid-learning {
+  padding: 40px 20px;
+}
+
+.paid-learning > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.paid-learning > p {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 35px;
+}
+
+.paid-learning > h2 {
+  color: #000;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.paid-learning > h2 + p {
+  text-align: left;
+  margin: 0 0 20px;
+}
+
+.paid-learning form {
+  background: #fff;
+  border: 5px inset #0c0c0c;
+  padding: 20px;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+.paid-learning form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.paid-learning form input,
+.paid-learning form select,
+.paid-learning form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.paid-learning form input:focus,
+.paid-learning form select:focus,
+.paid-learning form textarea:focus {
+  border-color: #e60000;
+  outline: none;
+}
+
+.paid-learning form button {
+  background: #e60000;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.paid-learning form button:hover {
+  background: #990000;
+}
+
+@media (max-width: 850px) {
+  .hero,
+  .form {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .exchange {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .h {
+    flex-direction: column;
+    gap: 12px;
+    padding: 18px 10px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .navigation a {
+    margin-left: 0;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .skillform {
+    padding: 15px;
+  }
+
+  .paid-learning {
+    padding: 25px 15px;
+  }
+
+  .paid-learning > h1 {
+    font-size: 32px;
+  }
+
+  .paid-learning form {
+    padding: 15px;
+  }
+}
